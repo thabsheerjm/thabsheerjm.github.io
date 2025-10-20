@@ -210,7 +210,84 @@ footer {
     margin: 10px auto;
   }
 
+/* --- Research Project Card Styles --- */
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
 
+.project-card {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+  background-color: #f0f0f0; 
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  background-color: #ffffff; 
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.project-card-image {
+  flex-shrink: 0;
+}
+
+.project-card-image img {
+  width: 320px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.project-card-content {
+  flex-grow: 1;
+}
+
+.project-card-content h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  color: #003366; 
+}
+
+.project-card-content p {
+  margin-top: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333; 
+}
+
+.project-card-content h3 a {
+  text-decoration: none; 
+  color: #1a0dab; 
+  font-size: 1.2rem; 
+  vertical-align: middle;
+}
+
+.project-card-content h3 a:hover {
+  color: #DB4437; 
+}
+
+.project-card-content h3 img {
+  width: 18px; 
+  height: 18px;
+  vertical-align: middle; 
+}
+
+.project-card-content .authors {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.4;
+  margin-top: 10px;
+}
 
 
 

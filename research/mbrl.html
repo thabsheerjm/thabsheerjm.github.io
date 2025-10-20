@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Model Based RL - Manipulation tasks</title>
+  
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="../css/project.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+  <a href="../index.html" class="home-link">Home</a>
+
+  <div class="project-container">
+    <h1>A Generalizable Model-Based Reinforcement Learning Framework
+for Robotic Manipulation</h1>
+
+    <div class="project-links">
+      <a href="#" class="project-link-button">
+        <i class="fas fa-file-alt"></i> Report
+      </a>
+      <a href="#" class="project-link-button">
+        <i class="fab fa-github"></i> Code
+      </a>
+    </div>
+    <p class="project-date">October 2025</p>
+    
+    <img src="../assets/thumbnails/expert_demo.gif" alt="Model Based RL animation" class="project-hero-image">
+    <p class="image-caption">Demonstration of the expert policy performing a simple pick-and-place task.</p>
+
+    <h2>Motivation</h2>
+    <p>Behavior Cloning models are sample inefficient and fails to generalize to simple tasks like pick and place. 
+      Even with DataAggregation techniques (DAgger) the agent fails to learn general behavior.
+      In this work we formalize a general dynamics model that can give the manipulator the ability make intelligent decision while learning from expert demonstarations.
+    </p>
+
+    <!-- <h2>Video Summary</h2>
+    <p>a video.</p>
+    
+    <div class="video-wrapper">
+      <iframe 
+        src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+    </div>  -->
+
+    <h2>Methods</h2>
+    <p>To simplify the study we start with a simple task, pick and place with known poses. The problem
+        was simple enough the agent had to copy the behavior of expert joint space PD controller. The
+        task here is to pick up and item from one location and placing it in another. We begin with uniform
+        shaped cubes and later procedurally deform the shapes to see how the arm perform.</p>
+    
+    <h3>Behavior Cloning Without a world model</h3>
+    Behavior cloning(BC) is a popular imitation learning method where a policy is trained to reproduce
+    expert behavior using supervised learning.
+
+    
+    <h2>Results</h2>
+    <p></p>
+
+  </div>
+  
+  </body>
+</html>

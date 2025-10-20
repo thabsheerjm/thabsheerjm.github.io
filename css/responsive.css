@@ -23,4 +23,13 @@
     .vertical-divider{
       display: none;
     }
+  
+    .project-card {
+      flex-direction: column;
+    }
+    .project-card-image img {
+      width: 100%;
+      height: auto;
+    }
+
   }
